@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(187, 52%, 90%);
+}
+
+h1 {
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 10px 75px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    margin: 0 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 2px solid rgba(115, 161, 201, 0.945);
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+td {
+    border-top: 1px solid rgba(135, 206, 250, 0.781);
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+
+}
