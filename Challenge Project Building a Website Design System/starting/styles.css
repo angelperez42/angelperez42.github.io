@@ -1,0 +1,186 @@
+html {
+    background-color: #F2F2F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px 110px;
+    text-align: left;
+}
+
+.header > li {
+    display: inline;
+}
+
+.header li+li::before {
+    padding: 10px;
+    content: "|";
+}
+
+.header a {
+    text-decoration: none;
+    color: #92A9B9;
+}
+
+.header a:hover {
+    color: #0070C0;
+}
+
+.header {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+body {
+    margin-top: 100px;
+
+
+}
+
+div {
+    display: block;
+}
+
+.containers {
+    border: 2px solid black;
+    margin: 100px;
+    padding: 10px;
+    display: block;
+    background-color: white;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.color-box {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.KNTY-Blue {
+    padding: 30px;
+    background-color: #0070C0;
+    color: #FFF;
+}
+
+.Drop-Braige {
+    padding: 30px;
+    background-color: #D6D3CC;
+    color: #000000;
+}
+
+.Sus-Blay {
+    padding: 30px;
+    background-color: #92A9B9;
+    color: #000000;
+}
+
+.font-container {
+    /* vertical-align: middle;
+    display: inline-block;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.font-box {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin: 20px auto;
+    padding: 0 15px 0 5;
+    min-height: 150px;
+    border-left: 2px solid #000000;
+}
+
+.font-title {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
+/* Roboto Font */
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Montserrat Font */
+ /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+  .montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .montserrat-italic {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  /* PT Serif Font */
+  .pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  h1.montserrat-bold {
+    font-size: 32px;
+  }
